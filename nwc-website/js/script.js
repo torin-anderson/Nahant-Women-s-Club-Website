@@ -1,7 +1,7 @@
 // Function to fetch and insert HTML content
 const includeHTML = () => {
   // 1. Fetch the header
-  fetch('/partials/header.html')
+  fetch('partials/header.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('header-placeholder').innerHTML = data;
@@ -11,7 +11,7 @@ const includeHTML = () => {
     .catch(error => console.error('Error loading the header:', error));
 
   // 2. Fetch the footer
-  fetch('/partials/footer.html')
+  fetch('partials/footer.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('footer-placeholder').innerHTML = data;
