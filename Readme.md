@@ -1,10 +1,11 @@
-## This is a website for the Nahant Women's Club! Started on 9/3/26
-# Current stack is:
+This is a website for the Nahant Women's Club! Started on 9/22/26
 
-UI Library: React
+## Tech Stack
 
-Full-Stack Framework: Next.js
-
-Programming Language: TypeScript
-
-Styling: Tailwind CSS
+* **Frontend:** React
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Build Tool:** Vite
+* **Runtime:** Node.js
+* **Hosting:** Netlify
+* **Domain:** Custom domain
